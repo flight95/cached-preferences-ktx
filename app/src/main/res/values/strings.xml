@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cached Preferences Example</string>
+
+    <string name="store">Clear store</string>
+
+    <string name="category_a">Clear category A</string>
+    <string name="key_a1">Key A1</string>
+    <string name="key_a2">Key A2 (Number)</string>
+
+    <string name="category_b">Clear category B</string>
+    <string name="key_b1">Key B1</string>
+    <string name="key_b2">Key B2 (true or false)</string>
+</resources>

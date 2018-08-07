@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # cached-preferences-ktx
 
 ### It is [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences) wrapper library.

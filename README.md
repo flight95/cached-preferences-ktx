@@ -4,9 +4,8 @@
 # cached-preferences-ktx
 
 ### It is [SharedPreferences](https://developer.android.com/reference/android/content/SharedPreferences) wrapper library.
-- Using Generics.
-- Check contains and return null in get method.
-- Support setDefault. If value was set already, setDefault will be not set value.
+- Using Generics and androidx.preference packages.
+- One manage point for preferences from [android default settings](https://developer.android.com/guide/topics/ui/settings).
 
 ### Example
 - See [app source](https://github.com/flight95/cached-preferences-ktx/tree/master/app). It will be best practice for you.

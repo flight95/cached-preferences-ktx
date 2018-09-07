@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.preference.PreferenceCategory
+        android:key="@string/preference_visible"
+        android:title="@string/preference_visible_title">
+        <androidx.preference.CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_visible_invisible"
+            android:summary="@string/preference_visible_invisible_summary"
+            android:title="@string/preference_visible_invisible_title"
+            app:isPreferenceVisible="false" />
+        <androidx.preference.CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_visible_check_box"
+            android:summary="@string/preference_visible_check_box_summary"
+            android:title="@string/preference_visible_check_box_title" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory
+        android:key="@string/preference_invisible"
+        android:title="@string/preference_invisible_title"
+        app:isPreferenceVisible="false">
+        <androidx.preference.CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_invisible_check_box"
+            android:summary="@string/preference_invisible_check_box_summary"
+            android:title="@string/preference_invisible_check_box_title" />
+    </androidx.preference.PreferenceCategory>
+    <androidx.preference.PreferenceCategory
+        android:key="@string/preference_category"
+        android:title="@string/preference_category_title">
+        <androidx.preference.SwitchPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_category_switch"
+            android:summary="@string/preference_category_switch_summary"
+            android:title="@string/preference_category_switch_title" />
+        <flight95.cached.preferences.ktx.view.EditTextPreference
+            android:defaultValue="1"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_category_edit_text_int"
+            android:title="@string/preference_category_edit_text_int_title"
+            app:autoSummary="true"
+            app:persistType="int_value" />
+        <flight95.cached.preferences.ktx.view.EditTextPreference
+            android:defaultValue="2"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_category_edit_text_long"
+            android:title="@string/preference_category_edit_text_long_title"
+            app:autoSummary="true"
+            app:persistType="long_value" />
+        <flight95.cached.preferences.ktx.view.EditTextPreference
+            android:defaultValue="1.1"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_category_edit_text_float"
+            android:title="@string/preference_category_edit_text_float_title"
+            app:autoSummary="true"
+            app:persistType="float_value" />
+        <flight95.cached.preferences.ktx.view.EditTextPreference
+            android:defaultValue="default"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_category_edit_text_string"
+            android:title="@string/preference_category_edit_text_string_title"
+            app:autoSummary="true"
+            app:persistType="string_value" />
+        <flight95.cached.preferences.ktx.view.DropDownPreference
+            android:entries="@array/preference_category_drop_down_int_entries"
+            android:entryValues="@array/preference_category_drop_down_int_entries_values"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_category_drop_down_int"
+            android:title="@string/preference_category_drop_down_int_title"
+            app:autoSummary="true"
+            app:defaultIndex="1"
+            app:persistType="int_value" />
+        <flight95.cached.preferences.ktx.view.DropDownPreference
+            android:entries="@array/preference_category_drop_down_long_entries"
+            android:entryValues="@array/preference_category_drop_down_long_entries_values"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_category_drop_down_long"
+            android:title="@string/preference_category_drop_down_long_title"
+            app:autoSummary="true"
+            app:defaultIndex="1"
+            app:persistType="long_value" />
+        <flight95.cached.preferences.ktx.view.DropDownPreference
+            android:entries="@array/preference_category_drop_down_float_entries"
+            android:entryValues="@array/preference_category_drop_down_float_entries_values"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_category_drop_down_float"
+            android:title="@string/preference_category_drop_down_float_title"
+            app:autoSummary="true"
+            app:defaultIndex="1"
+            app:persistType="float_value" />
+        <flight95.cached.preferences.ktx.view.DropDownPreference
+            android:entries="@array/preference_category_drop_down_string_entries"
+            android:entryValues="@array/preference_category_drop_down_string_entries_values"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_category_drop_down_string"
+            android:title="@string/preference_category_drop_down_string_title"
+            app:autoSummary="true"
+            app:defaultIndex="1"
+            app:persistType="string_value" />
+        <flight95.cached.preferences.ktx.view.ListPreference
+            android:entries="@array/preference_category_list_int_entries"
+            android:entryValues="@array/preference_category_list_int_entries_values"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_category_list_int"
+            android:title="@string/preference_category_list_int_title"
+            app:autoSummary="true"
+            app:defaultIndex="1"
+            app:persistType="int_value" />
+        <flight95.cached.preferences.ktx.view.ListPreference
+            android:entries="@array/preference_category_list_long_entries"
+            android:entryValues="@array/preference_category_list_long_entries_values"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_category_list_long"
+            android:title="@string/preference_category_list_long_title"
+            app:autoSummary="true"
+            app:defaultIndex="1"
+            app:persistType="long_value" />
+        <flight95.cached.preferences.ktx.view.ListPreference
+            android:entries="@array/preference_category_list_float_entries"
+            android:entryValues="@array/preference_category_list_float_entries_values"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_category_list_float"
+            android:title="@string/preference_category_list_float_title"
+            app:autoSummary="true"
+            app:defaultIndex="1"
+            app:persistType="float_value" />
+        <flight95.cached.preferences.ktx.view.ListPreference
+            android:entries="@array/preference_category_list_string_entries"
+            android:entryValues="@array/preference_category_list_string_entries_values"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_category_list_string"
+            android:title="@string/preference_category_list_string_title"
+            app:autoSummary="true"
+            app:defaultIndex="1"
+            app:persistType="string_value" />
+        <flight95.cached.preferences.ktx.view.MultiSelectListPreference
+            android:entries="@array/preference_category_multi_select_list_entries"
+            android:entryValues="@array/preference_category_multi_select_list_entries_values"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_category_multi_select_list"
+            android:title="@string/preference_category_multi_select_list_title"
+            app:autoSummary="true"
+            app:defaultIndices="1|2" />
+        <androidx.preference.SeekBarPreference
+            android:defaultValue="@integer/preference_category_key_f_default"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:key="@string/preference_category_key_f"
+            android:max="@integer/preference_category_key_f_max"
+            android:title="@string/preference_category_key_f_title"
+            app:min="@integer/preference_category_key_f_min" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>

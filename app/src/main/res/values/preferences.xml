@@ -1,0 +1,161 @@
+<resources>
+    <string name="preference_visible" translatable="false">preference_visible</string>
+    <string name="preference_visible_title" translatable="false">Category visible</string>
+
+    <string name="preference_visible_invisible" translatable="false">preference_visible_invisible</string>
+    <string name="preference_visible_invisible_title" translatable="false">Invisible</string>
+    <string name="preference_visible_invisible_summary" translatable="false">Invisible summary</string>
+
+    <string name="preference_visible_check_box" translatable="false">preference_visible_check_box</string>
+    <string name="preference_visible_check_box_title" translatable="false">CheckBoxPreference</string>
+    <string name="preference_visible_check_box_summary" translatable="false">CheckBoxPreference summary</string>
+
+    <string name="preference_invisible" translatable="false">preference_invisible</string>
+    <string name="preference_invisible_title" translatable="false">Category invisible</string>
+
+    <string name="preference_invisible_check_box" translatable="false">preference_invisible_check_box</string>
+    <string name="preference_invisible_check_box_title" translatable="false">CheckBoxPreference</string>
+    <string name="preference_invisible_check_box_summary" translatable="false">CheckBoxPreference summary</string>
+
+    <string name="preference_category" translatable="false">preference_category</string>
+    <string name="preference_category_title" translatable="false">Category</string>
+
+    <string name="preference_category_switch" translatable="false">preference_category_switch</string>
+    <string name="preference_category_switch_title" translatable="false">SwitchPreference</string>
+    <string name="preference_category_switch_summary" translatable="false">SwitchPreference summary</string>
+
+    <string name="preference_category_edit_text_int" translatable="false">preference_category_edit_text_int</string>
+    <string name="preference_category_edit_text_int_title" translatable="false">EditTextPreference Int</string>
+
+    <string name="preference_category_edit_text_long" translatable="false">preference_category_edit_text_long</string>
+    <string name="preference_category_edit_text_long_title" translatable="false">EditTextPreference Long</string>
+
+    <string name="preference_category_edit_text_float" translatable="false">preference_category_edit_text_float</string>
+    <string name="preference_category_edit_text_float_title" translatable="false">EditTextPreference Float</string>
+
+    <string name="preference_category_edit_text_string" translatable="false">preference_category_edit_text_string</string>
+    <string name="preference_category_edit_text_string_title" translatable="false">EditTextPreference String</string>
+
+    <string name="preference_category_drop_down_int" translatable="false">preference_category_drop_down_int</string>
+    <string name="preference_category_drop_down_int_title" translatable="false">DropDownPreference Int</string>
+    <string-array name="preference_category_drop_down_int_entries">
+        <item>DropDownPreference int 1</item>
+        <item>DropDownPreference int 2</item>
+        <item>DropDownPreference int 3</item>
+    </string-array>
+    <string-array name="preference_category_drop_down_int_entries_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="preference_category_drop_down_long" translatable="false">preference_category_drop_down_long</string>
+    <string name="preference_category_drop_down_long_title" translatable="false">DropDownPreference Long</string>
+    <string-array name="preference_category_drop_down_long_entries">
+        <item>DropDownPreference long 1</item>
+        <item>DropDownPreference long 2</item>
+        <item>DropDownPreference long 3</item>
+    </string-array>
+    <string-array name="preference_category_drop_down_long_entries_values">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="preference_category_drop_down_float" translatable="false">preference_category_drop_down_float</string>
+    <string name="preference_category_drop_down_float_title" translatable="false">DropDownPreference Float</string>
+    <string-array name="preference_category_drop_down_float_entries">
+        <item>DropDownPreference float 1</item>
+        <item>DropDownPreference float 2</item>
+        <item>DropDownPreference float 3</item>
+    </string-array>
+    <string-array name="preference_category_drop_down_float_entries_values">
+        <item>1.1</item>
+        <item>1.2</item>
+        <item>1.3</item>
+    </string-array>
+
+    <string name="preference_category_drop_down_string" translatable="false">preference_category_drop_down_string</string>
+    <string name="preference_category_drop_down_string_title" translatable="false">DropDownPreference String</string>
+    <string-array name="preference_category_drop_down_string_entries">
+        <item>DropDownPreference string 1</item>
+        <item>DropDownPreference string 2</item>
+        <item>DropDownPreference string 3</item>
+    </string-array>
+    <string-array name="preference_category_drop_down_string_entries_values">
+        <item>default 1</item>
+        <item>default 2</item>
+        <item>default 3</item>
+    </string-array>
+
+    <string name="preference_category_list_int" translatable="false">preference_category_list_int</string>
+    <string name="preference_category_list_int_title" translatable="false">ListPreference Int</string>
+    <string-array name="preference_category_list_int_entries">
+        <item>ListPreference int 1</item>
+        <item>ListPreference int 2</item>
+        <item>ListPreference int 3</item>
+    </string-array>
+    <string-array name="preference_category_list_int_entries_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string name="preference_category_list_long" translatable="false">preference_category_list_long</string>
+    <string name="preference_category_list_long_title" translatable="false">ListPreference Long</string>
+    <string-array name="preference_category_list_long_entries">
+        <item>ListPreference long 1</item>
+        <item>ListPreference long 2</item>
+        <item>ListPreference long 3</item>
+    </string-array>
+    <string-array name="preference_category_list_long_entries_values">
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="preference_category_list_float" translatable="false">preference_category_list_float</string>
+    <string name="preference_category_list_float_title" translatable="false">ListPreference Float</string>
+    <string-array name="preference_category_list_float_entries">
+        <item>ListPreference float 1</item>
+        <item>ListPreference float 2</item>
+        <item>ListPreference float 3</item>
+    </string-array>
+    <string-array name="preference_category_list_float_entries_values">
+        <item>1.1</item>
+        <item>1.2</item>
+        <item>1.3</item>
+    </string-array>
+
+    <string name="preference_category_list_string" translatable="false">preference_category_list_string</string>
+    <string name="preference_category_list_string_title" translatable="false">ListPreference String</string>
+    <string-array name="preference_category_list_string_entries">
+        <item>ListPreference string 1</item>
+        <item>ListPreference string 2</item>
+        <item>ListPreference string 3</item>
+    </string-array>
+    <string-array name="preference_category_list_string_entries_values">
+        <item>default 1</item>
+        <item>default 2</item>
+        <item>default 3</item>
+    </string-array>
+
+    <string name="preference_category_multi_select_list" translatable="false">preference_category_multi_select_list</string>
+    <string name="preference_category_multi_select_list_title" translatable="false">MultiSelectListPreference</string>
+    <string-array name="preference_category_multi_select_list_entries">
+        <item>MultiSelectListPreference 1</item>
+        <item>MultiSelectListPreference 2</item>
+        <item>MultiSelectListPreference 3</item>
+    </string-array>
+    <string-array name="preference_category_multi_select_list_entries_values">
+        <item>default 1</item>
+        <item>default 2</item>
+        <item>default 3</item>
+    </string-array>
+
+    <string name="preference_category_key_f" translatable="false">preference_category_key_f</string>
+    <string name="preference_category_key_f_title" translatable="false">SeekBarPreference</string>
+    <integer name="preference_category_key_f_default">7</integer>
+    <integer name="preference_category_key_f_min">1</integer>
+    <integer name="preference_category_key_f_max">10</integer>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CachedPreference">
+        <attr name="persistType" format="enum">
+            <enum name="boolean_value" value="0" />
+            <enum name="int_value" value="1" />
+            <enum name="long_value" value="2" />
+            <enum name="float_value" value="3" />
+            <enum name="string_value" value="4" />
+            <enum name="set_value" value="5" />
+        </attr>
+        <attr name="autoSummary" format="boolean" />
+        <attr name="defaultIndex" format="integer" />
+        <attr name="defaultIndices" format="string" />
+    </declare-styleable>
+</resources>

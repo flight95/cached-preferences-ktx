@@ -2,34 +2,33 @@ package flight95.cached.preferences.example
 
 import android.os.Bundle
 import android.util.Log
-import androidx.appcompat.app.AppCompatActivity
+import androidx.preference.PreferenceFragmentCompat
 import flight95.cached.preferences.ktx.CachedPreferenceStore
 
-class MainActivity : AppCompatActivity() {
+class SettingsFragment : PreferenceFragmentCompat() {
 
     companion object {
-        private val TAG = MainActivity::class.java.simpleName
+        private val TAG = SettingsFragment::class.java.simpleName
+        fun make() = SettingsFragment()
     }
 
     // TODO: DI was the best way.
     private val store: CachedPreferenceStore by lazy {
-        CachedPreferenceStore.make(this, R.xml.preferences)
+        CachedPreferenceStore.make(preferenceManager)
     }
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
+    override fun onCreatePreferences(savedInstanceState: Bundle?, rootKey: String?) {
+        addPreferencesFromResource(R.xml.preferences)
+    }
 
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
         log()
-
-        supportFragmentManager
-            .beginTransaction()
-            .replace(android.R.id.content, SettingsFragment.make())
-            .commit()
     }
 
     private fun log() {
 
-        // check all properties loaded from xml/preferences.xml
+        // check all properties loaded from preference manager.
         store.categories
             .forEach {
                 Log.e(TAG, "load category ${it.key}")
@@ -69,8 +68,5 @@ class MainActivity : AppCompatActivity() {
         store.getPreference(R.string.preference_visible_check_box).let { preference ->
             Log.e(TAG, "get preference ${preference.key}: ${preference.get<Boolean>()}")
         }
-
-        // force set value of preference_category_switch.
-        store.getPreference(R.string.preference_category_switch).set(true)
     }
 }
